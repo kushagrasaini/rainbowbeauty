@@ -1,3 +1,4 @@
+
 img{  
       height:115px;
       border:2px solid black;
@@ -78,3 +79,82 @@ ul li:hover ul li {
 }
 
    
+=======
+img{  
+      height:115px;
+      border:2px solid black;
+      
+} 
+
+h1{ 
+    background-image:url(https://enjoycss.com/webshots/hA_1.png);
+    background-size: cover; 
+    margin-block-start: -85px;
+    margin-right: 9%;
+    padding-left: 63%;
+    color: white;
+   
+    } 
+
+body{
+    background-image: url(https://css-tricks.com/wp-content/uploads/2017/09/linear-gradient.png);
+    background-position-x: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}    
+ 
+
+h2{
+
+  border: 2px solid rgb(255, 255, 255);
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  background-image:url(https://i.imgur.com/OqH4GUk.jpg);
+  text-transform: capitalize;
+  margin-top: 40px;
+  margin-right: 78%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+div{
+    margin-top: 50px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    color:white;
+    
+}
+.parent{
+     
+     margin-top: 40px;
+}
+ul li {
+    float: left;
+    width: 335px;
+    height: 40px;
+    background: black; 
+    opacity:0.9;
+    line-height: 40px;
+    text-align: center;
+}
+ul li a{ 
+    text-decoration: zero;
+    color: white;
+    display: block;
+}
+ul li a:hover{
+    background-image: url(https://i.imgur.com/OqH4GUk.jpg)
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li {
+    display: block;
+
+}
+.location{
+    text-decoration: none 
+}
